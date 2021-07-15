@@ -1,0 +1,31 @@
+.header {
+    padding: 10px 70px;
+    background: url('../img/header/bg.png') top/contain no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    &__menu {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                font-style: normal;
+                font-weight: bold;
+                color: white;
+
+                &::after {
+                    content: '';
+                    width: 70%;
+                    height: 8px;
+                }
+            }
+        }
+
+    }
+}
