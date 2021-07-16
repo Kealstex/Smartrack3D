@@ -16,7 +16,7 @@ h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
-    line-height: 78px;
+    line-height: 72px;
     text-align: right;
     color: $dark-blue;
     text-transform: uppercase;
@@ -38,6 +38,8 @@ h2 {
 @import 'blocks/button';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+
 @import 'blocks/header';
 @import 'blocks/what_doing';
 @import 'blocks/how_doing';
+@import 'blocks/scheme';

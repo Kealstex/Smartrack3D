@@ -1,0 +1,17 @@
+.scheme{
+    min-height: 100vh;
+    margin-top: 250px;
+    display: block;
+    h2{
+        text-align: center;
+        
+        padding: 0 130px;
+    }
+
+    &_img{
+        height: calc(100vh - 150px);
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
