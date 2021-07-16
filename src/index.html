@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +14,17 @@
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="Мое портфолио">
     <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="Мое портфолио">
-    <meta property="twitter:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="twitter:description"
+        content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Favicon  -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
@@ -32,7 +36,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon//android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
@@ -43,17 +47,88 @@
 
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <section class="header">
         <header class="header__menu">
-            <div class="header__menu_logo"></div>
-            <ul>
+            <div class="header__menu_logo">
+                <img src="img/header/3DAPP.png" alt="">
+            </div>
+            <ul class="">
                 <li>Что мы делаем?</li>
                 <li>Как мы делаем?</li>
                 <li>Зачем мы делаем?</li>
             </ul>
         </header>
+        <div class="cards">
+            <div class="card">
+                <h3 class="card__header">
+                    Управление
+                </h3>
+                <div class="card__text">
+                    Наблюдайте за складом в режиме реального времени: топология, ресурсы и большинство процесоов будут
+                    визуализированы на основе реальных данных из WMS.</br></br>
+                    Функционал Warehouse3D позволит принимать управленческие решения не отходя от монитора.
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card__header">
+                    Анализ
+                </h3>
+                <div class="card__text">
+                    Комплексный статистический анализ больших объёмов информации сыграет важную роль в прогнозировании и
+                    планировании ресурсов. </br></br>
+                    Наряду с более наглядным представлением процессов, аналитика данных из WMS откроет новые пути
+                    оптимизации.
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card__header">
+                    Имитация
+                </h3>
+                <div class="card__text">
+                    Тестировать гипотезы на модели гораздо дешевле, чем на реальном складе.<br><br>
+                    Интеллектуальные системы смогут с высокой степенью точности имитировать реальные процессы на
+                    изменённой модели, что позволит проверять предлагаемые концепции без риска.
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section class="whatDoing">
+        <div class="container">
+            <h2>что мы делаем?</h2>
+                <div class="items">
+                    <div class="item">
+                        <img src="img/weDoing/cube.png" alt="" class="item_img">
+                        <div class="item__wrapper">
+                            <h3 class="item__wrapper_header">Детальная 3D визуализация</h3>
+                            <div class="item__wrapper_text">Пространственная модель – наиболее привычный и удобный
+                                способ восприятия информации и взаимодействия с системой </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/weDoing/timer.png" alt="" class="item_img">
+                        <div class="item__wrapper right">
+                            <h3 class="item__wrapper_header">Имитационное моделирование в реальном времени</h3>
+                            <div class="item__wrapper_text">Пространственная модель – наиболее привычный и удобный
+                                способ восприятия информации и взаимодействия с системой </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/weDoing/bd.png" alt="" class="item_img">
+                        <div class="item__wrapper">
+                            <h3 class="item__wrapper_header">Реальные данные</h3>
+                            <div class="item__wrapper_text">Пространственная модель – наиболее привычный и удобный
+                                способ восприятия информации и взаимодействия с системой </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="howDoing"></section>
     <script src="js/script.js"></script>
 </body>
+
 </html>

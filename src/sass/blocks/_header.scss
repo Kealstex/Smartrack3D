@@ -1,15 +1,24 @@
 .header {
     padding: 10px 70px;
-    background: url('../img/header/bg.png') top/contain no-repeat;
+    background: url('../img/header/bg.png') top/100% no-repeat;
     min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
 
     &__menu {
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+
+        &_logo {
+            width: 20%;
+        }
+
         ul {
+            width: 80%;
             list-style: none;
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
             li {
                 font-size: 24px;
@@ -18,14 +27,49 @@
                 font-style: normal;
                 font-weight: bold;
                 color: white;
+                margin-left: 10px;
 
                 &::after {
-                    content: '';
-                    width: 70%;
-                    height: 8px;
+                    content: "";
+                    display: block;
+                    position: relative;
+                    width: 40%;
+                    height: 6px;
+                    background-color: $light-blue;
+                    border-radius: 8px;
                 }
             }
         }
+    }
 
+    .cards {
+        margin-top: 26%;
+        display: flex;
+        justify-content: space-evenly;
+
+
+        .card {
+            background-color: $light-gray;
+            max-width: 340px;
+            font-weight: bold;
+            padding: 25px 20px;
+            border-radius: 32px;
+            z-index:2;
+
+            &__header {
+                display: flex;
+                justify-content: center;
+                color: $dark-gray;
+                @include before_circle;
+            }
+
+            &__text {
+                color: $gray;
+
+                font-size: 18px;
+                line-height: 22px;
+                font-feature-settings: 'case'on;
+            }
+        }
     }
 }
