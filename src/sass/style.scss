@@ -1,6 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/bootstrap-grid.min';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -13,7 +13,6 @@
 }
 
 h2 {
-    margin-top: 60px;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -21,9 +20,6 @@ h2 {
     text-align: right;
     color: $dark-blue;
     text-transform: uppercase;
-    .left{
-        text-align: left;
-    }
 }
 
 .bd-dark{
@@ -44,3 +40,4 @@ h2 {
 @import 'blocks/menu';
 @import 'blocks/header';
 @import 'blocks/what_doing';
+@import 'blocks/how_doing';
