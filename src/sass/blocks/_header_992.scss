@@ -1,0 +1,32 @@
+@media (min-width:992px) and (max-width:1200px) {
+    .header {
+        &__menu {
+            margin-top: 24px;
+
+            &_logo {
+                img {
+                    max-height: 56px;
+                }
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .cards {
+            .card {
+                max-width: 270px;
+
+                &__text {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
