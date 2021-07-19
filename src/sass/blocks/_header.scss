@@ -6,11 +6,16 @@
 
     &__menu {
         display: flex;
-        margin-top: 60px;
+        margin-top: 40px;
+        padding:0 60px ;
         justify-content: space-between;
 
         &_logo {
             width: 20%;
+            img{
+                max-height: 100px;
+                width: auto;
+            }
         }
 
         ul {
