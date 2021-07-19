@@ -22,7 +22,7 @@ h2 {
     text-transform: uppercase;
 }
 
-.bd-dark{
+.bg-dark{
     background-color: $dark-blue;
     color: white;
 }
@@ -45,3 +45,4 @@ h2 {
 @import 'blocks/scheme';
 @import 'blocks/why_doing';
 @import 'blocks/faq';
+@import 'blocks/contacts';
