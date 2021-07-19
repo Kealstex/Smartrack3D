@@ -37,6 +37,8 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="css/style.min.css">
+    <!--video-->
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -83,6 +85,34 @@
                     изменённой модели, что позволит проверять предлагаемые концепции без риска.
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <video
+            id="my-video"
+            class="video-js"
+            controls="true"
+            preload="auto"
+            width="1440"
+            height="264"
+            poster="video/poster.png"
+            resize="1"
+            fluid="true"
+
+            data-setup="{}"
+          >
+            <source src="video/SmartrackPresentation.mp4" type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        
         </div>
     </section>
 
@@ -314,7 +344,10 @@
             </div>
         </div>
     </section>
-    <script src="js/script.js"></script> 
+    
+    <script src="js/script.js"></script>
+    <!--video-->
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script> 
 </body>
 
 </html>
