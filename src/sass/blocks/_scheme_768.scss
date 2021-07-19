@@ -1,0 +1,12 @@
+@media (min-width:768px) and (max-width:991px) {
+    .scheme {
+        h2 {
+            font-size: 24px;
+            line-height: 26px;
+        }
+
+        &_img {
+            max-height: calc(100vh - 130px);
+        }
+    }
+}

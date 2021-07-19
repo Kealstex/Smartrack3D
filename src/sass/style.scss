@@ -20,6 +20,11 @@ h2 {
     text-align: right;
     color: $dark-blue;
     text-transform: uppercase;
+
+    @media (max-width:991px) and (min-width:768px){
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
 
 .bg-dark{
@@ -31,6 +36,9 @@ h2 {
 .container {
     width: 1400px;
     margin: 0 auto;
+    @media (max-width:991px) and (min-width:768px){
+        overflow: hidden;
+    }
 }
 
 
@@ -38,12 +46,27 @@ h2 {
 
 @import 'blocks/header';
 @import 'blocks/header_992';
+@import 'blocks/header_768';
+
+@import 'blocks/video';
+@import 'blocks/video_768';
+
 @import 'blocks/what_doing';
 @import 'blocks/what_doing_992';
+@import 'blocks/what_doing_768';
+
 @import 'blocks/how_doing';
 @import 'blocks/how_doing_992';
+@import 'blocks/how_doing_768';
+
 @import 'blocks/scheme';
+@import 'blocks/scheme_768';
+
 @import 'blocks/why_doing';
+@import 'blocks/why_doing_768';
+
 @import 'blocks/faq';
+@import 'blocks/faq_768';
+
 @import 'blocks/contacts';
-@import 'blocks/video';
+@import 'blocks/contacts_768';

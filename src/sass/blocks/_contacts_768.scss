@@ -1,0 +1,43 @@
+@media (min-width:768px) and (max-width:991px) {
+    .contacts {
+        min-width: 100%;
+        min-height: unset;
+        &_img {
+            width: 100%;
+            height: auto;
+        }
+
+        &_form {
+            h3 {
+                font-size: 28px;
+                line-height: 30px;
+            }
+
+            form input,
+            form textarea {
+                font-size: 22px;
+                line-height: 24px;
+            }
+
+            form button{
+                font-size: 24px;
+            }
+
+        }
+
+        &_links{
+            margin-top: 16px;
+            .contacts_link {
+                margin-top: 0;
+                font-size: 19px;
+                line-height: 22px;
+                font-weight: 400;
+                img{
+                    width: 18px;
+                    height: auto;
+                }
+            }
+        }
+        
+    }
+}

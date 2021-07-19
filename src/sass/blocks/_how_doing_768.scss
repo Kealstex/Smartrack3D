@@ -1,0 +1,25 @@
+@media(max-width:991px) and (min-width:768px) {
+    .howDoing {
+        &__item-body {
+            font-size: 18px;
+            line-height: 20px;
+        }
+
+        &__wrapper {
+            column-gap: 0;
+            grid-template-columns: repeat(2, 300px)
+        }
+
+        &__notification {
+            font-size: 18px;
+            line-height: 20px;
+            padding: 24px;
+            max-width: 600px;
+
+            &_header {
+                font-size: 20px;
+                line-height: 22px;
+            }
+        }
+    }
+}
