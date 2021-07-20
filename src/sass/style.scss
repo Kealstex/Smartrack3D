@@ -47,7 +47,9 @@ h2 {
     }
 
     @media (max-width:576px) {
-        width: 320px;
+        max-width: 566px;
+        min-width: 320px;
+        width: 100%;
     }
 }
 

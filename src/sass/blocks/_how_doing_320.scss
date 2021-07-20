@@ -20,6 +20,7 @@
             &-body {
                 font-size: 12px;
                 line-height: 14px;
+                width: calc(100vw - 20px);
             }
 
             &-icon {
@@ -38,7 +39,11 @@
         }
 
         &__column {
-            width: 320px;
+            width: 310px;
+            ul {
+                list-style-type: none;
+                width: 310px;
+            }
 
             &-title {
                 &::before {
@@ -61,6 +66,7 @@
             max-width: unset;
             font-weight: 600;
             border-radius: 0;
+            position: relative;
 
             &_header {
                 font-size: 20px;
