@@ -1,0 +1,71 @@
+@media(max-width:575px) and (min-width:320px) {
+    .howDoing {
+        height: unset;
+
+        &__item {
+            .title {
+                font-size: 14px;
+                line-height: 26px;
+            }
+
+            &-location {
+                font-size: 12px;
+                line-height: 12px;
+            }
+
+            &-head {
+                padding: 45px 0 0 75px;
+            }
+
+            &-body {
+                font-size: 12px;
+                line-height: 14px;
+            }
+
+            &-icon {
+                img {
+                    left: 0px;
+                    top: 12px;
+                }
+
+                &::before {
+                    transform: translateY(5px);
+                    left: -16%;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+
+        &__column {
+            width: 320px;
+
+            &-title {
+                &::before {
+                    left: -10px;
+                    top: 22px;
+                }
+            }
+        }
+
+        &__wrapper {
+            column-gap: 0;
+            grid-template-columns: 1fr;
+            padding: 40px 5px 0 5px;
+        }
+
+        &__notification {
+            font-size: 16px;
+            line-height: 18px;
+            padding: 24px;
+            max-width: unset;
+            font-weight: 600;
+            border-radius: 0;
+
+            &_header {
+                font-size: 20px;
+                line-height: 22px;
+            }
+        }
+    }
+}

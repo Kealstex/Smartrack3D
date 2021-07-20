@@ -26,6 +26,11 @@ h2 {
         line-height: 44px;
     }
 
+    @media (max-width:575px) and (min-width:320px){
+        font-size: 20px;
+        line-height: 22px;
+    }
+
 }
 
 .bg-dark{
@@ -40,6 +45,10 @@ h2 {
     @media (max-width:991px){
         overflow: hidden;
     }
+
+    @media (max-width:576px) {
+        width: 320px;
+    }
 }
 
 
@@ -49,6 +58,7 @@ h2 {
 @import 'blocks/header_992';
 @import 'blocks/header_768';
 @import 'blocks/header_576';
+@import 'blocks/header_320';
 
 @import 'blocks/video';
 @import 'blocks/video_576';
@@ -57,24 +67,30 @@ h2 {
 @import 'blocks/what_doing_992';
 @import 'blocks/what_doing_768';
 @import 'blocks/what_doing_576';
+@import 'blocks/what_doing_320';
 
 @import 'blocks/how_doing';
 @import 'blocks/how_doing_992';
 @import 'blocks/how_doing_768';
 @import 'blocks/how_doing_576';
+@import 'blocks/how_doing_320';
 
 @import 'blocks/scheme';
 @import 'blocks/scheme_768';
 @import 'blocks/scheme_576';
+@import 'blocks/scheme_320';
 
 @import 'blocks/why_doing';
 @import 'blocks/why_doing_768';
 @import 'blocks/why_doing_576';
+@import 'blocks/why_doing_320';
 
 @import 'blocks/faq';
 @import 'blocks/faq_768';
 @import 'blocks/faq_576';
+@import 'blocks/faq_320';
 
 @import 'blocks/contacts';
 @import 'blocks/contacts_768';
 @import 'blocks/contacts_576';
+@import 'blocks/contacts_320';

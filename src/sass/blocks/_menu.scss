@@ -1,5 +1,5 @@
 .hamburger {
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         position: absolute;
         top: 20px;
         right: 30px;
@@ -111,5 +111,11 @@
         height: 100%;
         background-color: #fff;
         opacity: .75;
+    }
+
+    @media (max-width: 575px) {
+        .menu__link:before{
+            left: 6px;
+        }
     }
 }
