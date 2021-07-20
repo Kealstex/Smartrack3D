@@ -1,0 +1,14 @@
+@media (min-width:576px) and (max-width:767px) {
+    .faq {
+        min-height: unset;
+        &__question {
+            font-size: 18px;
+            line-height: 20px;
+
+            summary {
+                font-size: 20px;
+                line-height: 22px;
+            }
+        }
+    }
+}
