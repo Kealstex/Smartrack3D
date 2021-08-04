@@ -1,17 +1,17 @@
-.scheme{
-    min-height: 100vh;
+.scheme {
     margin-top: 270px;
     display: block;
-    h2{
+
+    h2 {
         text-align: center;
         padding: 0 130px;
         padding-top: 24px;
     }
 
-    &_img{
+    &_img {
         padding-top: 20px;
         max-width: 100%;
-        max-height: calc(100vh - 170px);
+        max-height: 100vh;
         width: auto;
         display: block;
         margin: 0 auto;

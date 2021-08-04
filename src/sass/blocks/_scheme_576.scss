@@ -1,14 +1,12 @@
 @media (min-width:576px) and (max-width:767px) {
     .scheme {
         min-height: unset;
+        margin-top: 120px;
         h2 {
             font-size: 24px;
             line-height: 26px;
             padding: 60px 5px 10px 5px;
         }
 
-        &_img {
-            max-height: calc(100vh - 130px);
-        }
     }
 }

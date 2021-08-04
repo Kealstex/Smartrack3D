@@ -1,7 +1,22 @@
+.header_fixed {
+    display: none;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    height: 44px;
+    z-index: 9;
+    top: 0;
+    background: linear-gradient(180deg, #2B3758 0%, rgba(43, 55, 88, 0) 100%);
+
+    @media (max-width:767px) {
+        display: block;
+    }
+}
+
 .hamburger {
     @media (max-width:767px) {
-        position: absolute;
-        top: 20px;
+        margin: 10px;
+        top: 21px;
         right: 30px;
         height: 21px;
         display: flex;
@@ -114,7 +129,7 @@
     }
 
     @media (max-width: 575px) {
-        .menu__link:before{
+        .menu__link:before {
             left: 6px;
         }
     }
