@@ -2,8 +2,8 @@
 
     overflow: hidden;
     padding-top: 120px;
-    height: 100vh;
-    padding-top: 60px;
+    height: 100%;
+    padding: 60px 0;
 
     h2 {
         color: white;
@@ -14,7 +14,6 @@
         padding: 60px 65px 0 65px;
         display: grid;
         grid-template-columns: repeat(2, 425px);
-        margin-bottom: 50px;
         column-gap: 135px;
     }
 
