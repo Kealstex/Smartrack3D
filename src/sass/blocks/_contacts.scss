@@ -89,13 +89,22 @@
             margin-top: 12px;
             font-weight: bold;
             font-size: 24px;
-            line-height: 152.34%;
+            line-height: 32px;
             color: white;
 
-            img{
+            img {
+                height: 24px;
                 margin-right: 24px;
             }
+        }
 
+        div {
+            display: flex;
+            justify-content: left;
+            margin-top: 12px;
+            .contacts_link {
+                text-decoration: unset;
+            }
         }
     }
 }
