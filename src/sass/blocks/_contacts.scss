@@ -2,6 +2,10 @@
     min-height: 100vh;
     padding-top: 60px;
 
+    .container{
+        position: relative;
+    }
+
     h2 {
         color: white;
         text-align: center;
